@@ -20,5 +20,5 @@ body{
     transition:0.3s;
 }
 .btn:hover{
-    background: lightblue;
+     background: linear-gradient(to right, rgb(0, 255, 102), rgb(89, 4, 128),pink);
 }
