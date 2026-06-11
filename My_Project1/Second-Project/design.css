@@ -1,0 +1,42 @@
+body{
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),
+        url("https://i.pinimg.com/736x/0e/b6/b1/0eb6b1926c86b6d7efc846e3d1d3f6b4.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card{
+    transition: 0.3s;
+    border: none;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(255,255,255,0.3);
+}
+.card-img-top{
+    height:250px;
+    object-fit:cover;
+}
+.btn{
+    transition: 0.3s;
+    border: none;
+}
+.btn:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(255,255,255,0.3);
+    background: linear-gradient(to right, red, blue);
+    font-weight: bold;
+    color: black;
+}
+.product-img{
+    height:220px;
+    object-fit:contain;
+    padding:10px;
+}

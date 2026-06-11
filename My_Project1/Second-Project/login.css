@@ -1,0 +1,7 @@
+.btn{
+    background: linear-gradient(to right, black, blue);
+    box-sizing: border-box;
+}
+.btn:hover{
+    background: linear-gradient(rgb(10, 10, 44), red);
+}
